@@ -1,0 +1,9 @@
+:root { --bg: #fff; --fg: #1a1a1a; --dim: #5c5c5c; --link: #0b57d0; }
+@media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #ececec; --dim: #a8a8a8; --link: #8ab4f8; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, system-ui, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 18px; margin: 32px 0 8px; }
+p, li { color: var(--dim); }
+a { color: var(--link); }
+footer { margin-top: 48px; font-size: 14px; color: var(--dim); }
